@@ -1,0 +1,40 @@
+2021-04-06 13:39:35.1989 INFO Info message from our controller.
+2021-04-06 13:39:35.2492 DEBUG Debug message from our controller.
+2021-04-06 13:39:35.2492 WARN Warn message from our controller.
+2021-04-06 13:39:35.2492 ERROR Error message from our controller.
+2021-04-06 13:39:37.4198 INFO Info message from our controller.
+2021-04-06 13:39:37.4198 DEBUG Debug message from our controller.
+2021-04-06 13:39:37.4198 WARN Warn message from our controller.
+2021-04-06 13:39:37.4198 ERROR Error message from our controller.
+2021-04-06 15:35:40.8243 INFO Info message from our controller.
+2021-04-06 15:35:40.8579 DEBUG Debug message from our controller.
+2021-04-06 15:35:40.8579 WARN Warn message from our controller.
+2021-04-06 15:35:40.8579 ERROR Error message from our controller.
+2021-04-06 15:38:05.8563 INFO Info message from our controller.
+2021-04-06 15:38:05.8872 DEBUG Debug message from our controller.
+2021-04-06 15:38:05.8872 WARN Warn message from our controller.
+2021-04-06 15:38:05.9037 ERROR Error message from our controller.
+2021-04-06 15:41:24.3446 INFO Info message from our controller.
+2021-04-06 15:41:24.3906 DEBUG Debug message from our controller.
+2021-04-06 15:41:24.4032 WARN Warn message from our controller.
+2021-04-06 15:41:24.4032 ERROR Error message from our controller.
+2021-04-06 15:43:37.1522 INFO Info message from our controller.
+2021-04-06 15:43:37.1999 DEBUG Debug message from our controller.
+2021-04-06 15:43:37.1999 WARN Warn message from our controller.
+2021-04-06 15:43:37.2147 ERROR Error message from our controller.
+2021-04-06 15:44:32.9817 INFO Info message from our controller.
+2021-04-06 15:44:32.9817 DEBUG Debug message from our controller.
+2021-04-06 15:44:32.9961 WARN Warn message from our controller.
+2021-04-06 15:44:32.9961 ERROR Error message from our controller.
+2021-04-06 15:44:41.6997 INFO Info message from our controller.
+2021-04-06 15:44:41.6997 DEBUG Debug message from our controller.
+2021-04-06 15:44:41.6997 WARN Warn message from our controller.
+2021-04-06 15:44:41.6997 ERROR Error message from our controller.
+2021-04-06 17:14:13.2301 ERROR Something went wrong in the GetCourses action AutoMapper.AutoMapperMappingException: Missing type map configuration or unsupported mapping.
+
+Mapping types:
+Course -> CourseDto
+Entities.Models.Course -> Entities.DataTransferObjects.CourseDto
+   at lambda_method(Closure , Course , CourseDto , ResolutionContext )
+   at lambda_method(Closure , Object , Object , ResolutionContext )
+   at SchoolAPI.Controllers.CoursesController.GetCourse(Guid id) in C:\Users\tomas\source\repos\SchoolAPI\SchoolAPI\Controllers\CourseController.cs:line 52

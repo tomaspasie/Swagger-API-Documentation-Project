@@ -1,0 +1,2 @@
+2021-04-13 06:43:11.4945 ERROR CourseForUpdateDto object sent from client is null.
+2021-04-13 06:52:59.0246 ERROR Invalid model state for the CourseForUpdateDto object
